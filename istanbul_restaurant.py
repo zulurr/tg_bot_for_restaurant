@@ -2,9 +2,9 @@ import asyncio
 from aiogram import Bot, Dispatcher
 import logging
 from handlers.messages import router
+from key import key
 
-
-API_TOKEN = '7584527051:AAGcmzUEXUxruOUwmx_EfSRWwc027WO-baI'
+API_TOKEN = key
 bot = Bot(token=API_TOKEN)
 dp = Dispatcher()
 
